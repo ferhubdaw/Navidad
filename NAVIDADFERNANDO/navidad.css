@@ -1,0 +1,495 @@
+body{
+    background-color: rgb(45, 61, 61);
+    margin:0;
+}
+body img{
+    bottom: 0;
+    width: 110%;
+    margin-bottom: 0%;
+}
+.sueloo{
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+}
+
+
+.moon img{
+
+    bottom: 60%;
+    width: 50%;
+}
+
+.moon {
+    width: 20%;
+    position: fixed;
+    left:0;
+  
+    z-index: 5;
+    animation: ease-in-out;
+    animation-name: lunita;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ }
+ 
+ @keyframes lunita {
+    0%{
+        bottom: 50vw;
+        }
+    100%{
+        bottom: 38vw;
+        left: 5vw;
+    }
+}
+
+.arbol {
+    width: 20%;
+    position: fixed;
+    left:50;
+    z-index: 5;
+    animation: ease-out;
+    animation-name: arbolito;
+    animation-duration: 4.2s;
+    animation-fill-mode: forwards;
+ }
+
+ @keyframes arbolito {
+    0%{
+        bottom: 0vw;
+        left:92vw;
+        }
+    100%{
+        bottom: 15vw;
+        left: 52vw;
+    }
+}
+     
+.insti {
+    width: 20%;
+    position: fixed;
+    left:42vw;
+    bottom: 1vw;
+    z-index: 6;
+    }
+
+
+ .muñeco {
+    width: 20%;
+    position: fixed;
+    left:0;
+  
+    z-index: 5;
+    animation: ease-in-out;
+    animation-name: muñequito;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ }
+
+
+
+ @keyframes muñequito {
+    0%{
+        bottom: 0vw;
+        }
+    100%{
+        bottom: 12vw;
+        left: 15vw;
+    }
+}
+
+.bocata{
+    
+    
+    width: 9%;
+    position: absolute;
+    left:35vw;
+    z-index: 5;
+    animation: ease-in-out;
+    animation-name: bocata;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+ }
+
+ @keyframes bocata {
+    0%{
+        visibility: hidden;
+        
+        bottom: 50vw;
+        }
+    96%{
+
+        visibility: hidden;
+       
+    }    
+
+    100%{
+        color: rgb(0, 0, 0);
+        left: 32vw;
+        bottom: 28vw;
+    }
+}
+
+.accede {
+    
+    font-family: 'Indie Flower', cursive;
+    font-size: 1vmax;
+    width: 20%;
+    position: absolute;
+    left:40vw;
+    z-index: 6;
+    animation: ease-in-out;
+    animation-name: accede;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+ }
+
+
+
+ @keyframes accede {
+    0%{
+        color: rgb(45, 61, 61);
+        bottom: 50vw;
+        }
+    99%{
+        color: rgb(45, 61, 61);
+    }    
+
+    100%{
+        color: rgb(0, 0, 0);
+        left: 34.5vw;
+        bottom: 30vw;
+    }
+}
+
+.texto{
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    right: 2vw;
+    color: rgb(236, 78, 78);
+    font-size: 2vmax;
+    animation-name: textete;
+    z-index: 6;
+    transition:  8s ease-in;
+}
+
+.autor{
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    right: 2vw;
+    color: rgb(236, 78, 78);
+    font-size: 2vmax;
+    animation-name: textete;
+    z-index: 6;
+    transition:  8s ease-in;
+}
+
+
+
+@keyframes textete{
+
+    0%{
+        transform: translateX();
+        
+    }
+    100%{
+        transform: translateX();
+    }
+
+}
+
+.snow{
+    position: absolute;
+    background-color: rgba(255, 250, 250, 0.692);
+    bottom: 100%;
+    border-radius: 5vw;
+    animation: snowing;
+    animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    opacity: 30%;
+}
+
+.snow2{
+    position: absolute;
+    background-color: rgba(204, 197, 197, 0.692);
+    bottom: 100%;
+    border-radius: 5vw;
+    animation: snowing;
+    animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    opacity: 60%;
+}
+.snow3{
+    position: absolute;
+    background-color: rgb(161, 156, 156);
+    bottom: 100%;
+    border-radius: 5vw;
+    animation: snowing;
+    animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    opacity: 90%;
+}
+.snow4{
+    position: absolute;
+    background-color: rgb(161, 156, 156);
+    bottom: 100%;
+    border-radius: 5vw;
+    animation: snowing;
+    animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    opacity: 90%;
+}
+.snow-flake1{
+    left: 5%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3s;
+}
+.snow-flake2{
+    left: 15%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3s;
+}
+
+.snow-flake3{
+    left: 25%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3s;
+}
+.snow-flake4{
+    left: 35%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3.1s;
+}
+.snow-flake5{
+    left: 45%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3.2s;
+}
+.snow-flake6{
+    left: 55%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3.9s;
+}
+.snow-flake7{
+    left: 65%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 4s;
+}
+.snow-flake8{
+    left: 75%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3s;
+}
+.snow-flake9{
+    left: 85%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3s;
+}
+.snow-flake10{
+    left: 95%;
+    height: 0.8vw;
+    width: 0.8vw;
+    animation-duration: 3.7s;
+}
+
+
+
+
+.snow-flake11{
+    left: 2%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 3.3s;
+}
+.snow-flake12{
+    left: 12%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 3.6s;
+}
+.snow-flake13{
+    left: 22%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 3.9s;
+}
+.snow-flake14{
+    left: 32%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 3.4s;
+}
+.snow-flake15{
+    left: 42%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 3.7s;
+}
+.snow-flake16{
+    left: 52%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 2.3s;
+}
+.snow-flake17{
+    left: 62%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 2.4s;
+}
+.snow-flake18{
+    left: 72%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 2.6s;
+}
+.snow-flake19{
+    left: 82%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 2.8s;
+}
+.snow-flake20{
+    left: 92%;
+    height: 0.6vw;
+    width: 0.6vw;
+    animation-duration: 1.3s;
+}
+
+
+
+.snow-flake21{
+    left: 7%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.2s;
+}
+.snow-flake22{
+    left: 17%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.5s;
+}
+.snow-flake23{
+    left: 27%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.8s;
+}
+.snow-flake24{
+    left: 37%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.4s;
+}
+.snow-flake25{
+    left: 47%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.7s;
+}
+.snow-flake26{
+    left: 57%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 2.2s;
+}
+.snow-flake27{
+    left: 67%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.2s;
+}
+.snow-flake28{
+    left: 77%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.5s;
+}
+.snow-flake29{
+    left: 87%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.8s;
+}
+.snow-flake30{
+    left: 97%;
+    height: 0.3vw;
+    width: 0.3vw;
+    animation-duration: 1.7s;
+}
+
+.snow-flake31{
+    left: 9%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.2s;
+}
+.snow-flake32{
+    left: 19%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.5s;
+}
+.snow-flake33{
+    left: 29%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.8s;
+}
+.snow-flake34{
+    left: 39%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.4s;
+}
+.snow-flake35{
+    left: 49%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.7s;
+}
+.snow-flake36{
+    left: 59%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.2s;
+}
+.snow-flake37{
+    left: 69%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.2s;
+}
+.snow-flake38{
+    left: 79%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.5s;
+}
+.snow-flake39{
+    left: 89%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.8s;
+}
+.snow-flake40{
+    left: 99%;
+    height: 0.7vw;
+    width: 0.7vw;
+    animation-duration: 2.7s;
+}
+@keyframes snowing {
+    100%{
+        bottom: 1vw;
+        opacity: 0.4;
+    }
+}
